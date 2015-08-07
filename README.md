@@ -1,5 +1,5 @@
 # Ash Documentation
-The documentation for the [Ash programming language](https://github.com/ash-lang/ash). Read this in book form [here](https://www.gitbook.com/book/samtebbs33/ash-lang/details).
+The documentation for the [Ash programming language](https://github.com/ash-lang/ash). Read this in book form [here](http://ash-lang.gitbooks.io/ash-reference/content/).
 
 Ash is an imperative and object-oriented programming language that sits on top of the Java platform. Some of its aims are:
 
