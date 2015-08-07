@@ -30,4 +30,4 @@ class Car : Vehicle {
 }
 ```
 
-An implementation of the `moveManyTimes()` method would be optional. Note that interfaces can implement other interfaces, but are not reuquired to provide their own implementations of functions (that is up to the implementing class).
+An implementation of the `moveManyTimes()` method would be optional. Note that interfaces can extend other interfaces, but are not reuquired to provide their own implementations of functions (that is up to the implementing class).
