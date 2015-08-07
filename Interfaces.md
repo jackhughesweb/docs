@@ -1,7 +1,7 @@
 # Interfaces
 An interface is a type that defines the capabilites of a class or enum, rather than its state.
 
-An interface is declared in much the same way as a class. The exceptions are that it uses the `interface` keywords (rather than the `class` keyword), has no constructors and cannot extend a class.
+An interface is declared in much the same way as a class. The exceptions are that it uses the `interface` keyword (rather than the `class` keyword), has no constructors and cannot extend a class.
 
 Normally, the functions inside an interface have no implementation (the class that implements an interface provides its own implementation for the interface's functions). However, a default implementation can be provided, which is used when the implementing class does not provide its own.
 
