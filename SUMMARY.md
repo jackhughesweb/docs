@@ -7,3 +7,4 @@
  * [Classes](Classes.md)
  * [Interfaces](Interfaces.md)
  * [Primitives](Primitives.md)
+ * [Optionals](Optionals.md)
