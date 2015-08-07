@@ -31,7 +31,7 @@ var greeting = "Anthony" -> {
 }
 ```
 
-When the variable is being retrieved, the get block is run. When the variable's value is being set, the set block is run and the variable is assigned to the value returned by the block. The `newVal` variable is implicitly created and is used to refer to the value that the variable is being assigned to. The variable is assigned to the value returned by the set block.
+When the variable is being retrieved, the get block is run. When the variable's value is being set, the set block is run and the variable is assigned to the value returned by the block. The `newVal` variable is implicitly created and is used to refer to the value that the variable is being assigned to. The `self` variable is used to refer directly to the value of the property, and bypasses all setters and getters (to prevent potential infinite recursion). The variable is assigned to the value returned by the set block.
 
 ```
 println(greeting) // "Hello Anthony"
