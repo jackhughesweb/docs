@@ -5,4 +5,5 @@
 * [Variables](Variables.md)
 * [Types](Types.md)
  * [Classes](Classes.md)
+ * [Interfaces](Interfaces.md)
  * [Primitives](Primitives.md)

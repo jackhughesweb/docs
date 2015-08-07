@@ -1,5 +1,5 @@
 # Classes
-A class is a type that aggregate fields (state) and functions (behaviour) into one structure. A class declaration is formed by zero or more modifiers, the `class` keyword and the name of the class.
+A class is a type that aggregates fields (state) and functions (behaviour) into one structure. A class declaration is formed by zero or more modifiers, the `class` keyword and the name of the class.
 
 Within braces, you can declare fields and functions inside the class.
 
