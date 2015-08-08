@@ -17,7 +17,7 @@ str = str3 // Legal
 ```
 
 ## Unwrapping
-The only way to convert an optional variable to a non-optional is to unwrap it using the `!` operator. If the unwrapped value is null, a `NullObjectException` exception is thrown, else the value is returned.
+The only way to convert an optional value to a non-optional is to unwrap it using the `!` operator. If the unwrapped value is null, a `NullObjectException` exception is thrown, else the value is returned.
 
 ```
 var nullObj = null // Inferred as Object?

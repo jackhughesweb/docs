@@ -8,3 +8,4 @@
  * [Interfaces](Interfaces.md)
  * [Primitives](Primitives.md)
  * [Optionals](Optionals.md)
+ * [Tuples](Tuples.md)
