@@ -18,6 +18,14 @@ c = 123 // Illegal! You can't change the speed of light!
 
 The type of a variable can be an interface, enum, class or [primitive](Primitives.md).
 
+At the class-declaration level, multiple variable declarations can be chained on the same line.
+
+```
+var a = 0, b = "Sam"
+```
+
+The example above would declare an `int` with the value 0, and a `String` with the value "Sam". Both variables are non-constant as the `var` keyword was used.
+
 ## Properties
 Properties are variables that are bundled with a getter and setter. This emulates the common pattern of declaring a private variable along with getter and setter methods. A property can only have one getter and one setter, but both are optional. 
 

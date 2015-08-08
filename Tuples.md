@@ -1,7 +1,7 @@
 # Tuples
 Tuples are structures that group data of different types together. They are in fact similar to [data classes](Classes.md#data_classes), but have no name.
 
-A tuple type is defined with an opening parenthesis, at least two types separated by commas, and then a closing parenthesis. The types within the tuple can be any sort of type (even other tuples!). Tuples must have more than 1 type in order to not clash with expressions surrounded in parentheses (a tuples with just one type is extremely pointless anyway).
+A tuple type is defined with an opening parenthesis, at least two types separated by commas, and then a closing parenthesis. The types within the tuple can be any sort of type (even other tuples!). Tuples must have more than 1 type in order to not clash with expressions surrounded in parentheses (a tuple with just one type is extremely pointless anyway).
 
 Below is an example of a tuple that stores a String and an integer.
 
