@@ -4,9 +4,10 @@ Ash source files are where you enter the majority of your project's code. The ex
 The structure of a source file is as follows:
 
 1. An optional package declaration.
-2. An optional list of import declarations.
-3. A public class/enum/interface declaration, whose name is the same as the file's.
-4. Any number of other non-public class/enum/interface declarations.
+2. An optional list of include declarations.
+3. An optional list of import declarations.
+4. A public class/enum/interface declaration, whose name is the same as the file's.
+5. Any number of other non-public class/enum/interface declarations.
 
 ## Package declarations
 A package declaration denotes the file's location and namespace. Imagine the following project directory structure, where all source files are under the **src** directory:
@@ -26,8 +27,17 @@ The **MyClass** class would have the **folder1** package, the **MyClass2** class
 package folder1.folder2
 ```	
 
-## Import declaration
-An import declaration makes it possible to use a class and its members from another package. A basic import declaration is denoted by the `import` keyword, and then the package name, followed by the class name.
+## Include declarations
+An include declaration allows you to use a [definition file](Definition_files.md) inside your source file. An include declaration is denoted by the `include` keyword, the definition file's package name, and then the definition file's name.
+
+```
+include foo.bar.MyDefFile
+```
+
+Each separate import declartion is specified on its own line.
+
+## Import declarations
+An import declaration makes it possible to use a class and its members from another package. A basic import declaration is denoted by the `import` keyword, then the package name, and then the class name.
 
 ```
 // Imports the LinkedList class
@@ -41,9 +51,11 @@ You can import multiple classes from the same package by appending more class na
 import java.util.LinkedList, ArrayList, HashMap
 ```
 
-Each separate import declartion is specified on its own line:
+Each separate import declartion is specified on its own line.
 
 ```
 import java.util.LinkedList
 import foo.bar.MyClass
 ```
+
+The imported class can either be a source file (Java or Ash), or a compiled class file
