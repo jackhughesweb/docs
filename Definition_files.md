@@ -23,3 +23,4 @@ func doThings() {
 func useGlobalFunc() {
 	doThings() // Calls the 'doThings()' global function
 }
+```
