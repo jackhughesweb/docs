@@ -4,6 +4,7 @@
 * [Comments](Comments.md)
 * [Variables](Variables.md)
 * [Operators](Operators.md)
+* [Modifiers](Modifiers.md)
 * [Types](Types.md)
  * [Classes](Classes.md)
  * [Interfaces](Interfaces.md)
