@@ -51,4 +51,4 @@ The above example is the deifnition of the "pow" operator in the standard librar
 
 Operator definitions can only be present in [definition files](Definition_files.md)
 
-Custom operators are overloaded in the same way as normal opeartor overloads.
+Custom operators are overloaded in the same way as normal operator overloads.
